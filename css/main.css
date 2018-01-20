@@ -1,0 +1,104 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin: 0;padding: 0;border: 0;outline: 0;font-size: 100%;vertical-align: baseline;background: transparent}
+body {line-height: 1}
+ol, ul {list-style: none}
+blockquote, q {quotes: none}
+blockquote:before, blockquote:after,
+q:before, q:after {content: '';content: none}
+:focus {outline: 0}
+ins {text-decoration: none}
+del {text-decoration: line-through}
+table {border-collapse: collapse;border-spacing: 0}
+table td {vertical-align: top}
+body {font: 11px Tahoma, Arial}
+html, body {width: 100%;height: 100%}
+a {text-decoration: underline}
+a:hover {text-decoration: none}
+.clearfix { zoom: 1 }
+.clearfix:after {content: ' ';clear:both;display: block;width: 0; height: 0;overflow: hidden;font-size: 0}
+body {background: #e9f7cf url(../img/body_bg.png) 0 0 repeat-x;color: #444c4f;font: 12px/18px Arial}
+a {color: #637b1f;cursor: pointer}
+#content  ul {list-style-type: circle;margin: 0 0 12px}
+#content  ol {list-style-type: decimal;margin: 0 0 12px}
+#content ul li {margin: 0 0 0 24px}
+#content ol li {margin: 0 0 0 24px}
+#content img {padding: 2px; border: 1px solid gray; margin: 0 5px 5px}
+#content table {width: 100%;border: 1px solid gray}
+#content table td {border: 1px solid gray; padding: 4px;}
+#content table.contentpane,
+#content table.contentpane table,
+#content table.contentpane td,
+#content table.blog table,
+#content table.blog td,
+#content table.blog {border: none}
+#container {background: url(../img/body.jpg) 0 0 no-repeat;min-height: 100%;margin: 0 auto;position: relative;width: 960px;padding: 158px 0 0 0;overflow: hidden}
+#logo {padding: 0 0 0 20px;left: 0;top: 0;width: 290px;height: 158px;overflow: hidden;position: absolute}
+#logo a {background: url(../img/logo.jpg) 0 0 no-repeat;display: block;width: 219px;height: 35px;color: #6f7855;text-decoration: none;padding: 108px 0 0 0;text-align: center}
+#mainMenu {left: 325px;top: 0;width: 310px;height: 158px;overflow: hidden;position: absolute}
+#mainMenu ul {border-top: 4px solid #ed8f25;padding: 20px 25px 0 25px;display: block}
+#mainMenu ul li {padding: 4px 0 3px 0}
+#mainMenu ul li img {display: block}
+#contacts {background: url(../img/phones.jpg) 100% 4px no-repeat;padding: 0 0 0 0;right: 0;top: 0;width: 310px;height: 158px;overflow: hidden;position: absolute}
+#contacts ul {border-top: 4px solid #9cc743;padding: 80px 32px 0 20px;display: block;text-align: right}
+#contacts ul li {padding: 2px 28px 3px 0;display: block;text-align: right}
+#contacts ul li#contactsBookmark {background: url(../img/bookmark.png) 100% 50% no-repeat}
+#contacts ul li#contactsRequest {background: url(../img/request.png) 100% 50% no-repeat}
+#contacts ul li#contactsEmail {background: url(../img/email.png) 100% 50% no-repeat}
+#contacts ul li#contactsBookmark a {font-size: 11px;font-weight: bold;color: #f1b82d}
+#contacts ul li#contactsRequest a {font-size: 11px;font-weight: bold;color: #709e14}
+#contacts ul li#contactsEmail a {font-size: 11px;color: #d0730a}
+#serviceMenu {overflow: hidden}
+#serviceMenu > div {position: relative;float: left;width: 230px;padding: 75px 0 0 0}
+#serviceMenu > div h3 {background: url(../img/services.png) 0 0 no-repeat;display: block;position: absolute;top: 0;left: 0;width: 100%;height: 75px;overflow: hidden;text-indent: -9999px;cursor: pointer}
+#serviceMenu > div ul {padding: 10px 0 10px 0}
+#serviceMenu.closed > div ul {display: none}
+#serviceMenu > div li {padding: 0 0 7px 15px}
+#serviceMenu > div li a {color: #566138}
+#serviceMenu > div#serviceMenu1,
+#serviceMenu > div#serviceMenu3 {width: 243px}
+#serviceMenu > div#serviceMenu2 {width: 244px}
+#serviceMenu > div#serviceMenu1 h3 {background-position: 0 0}
+#serviceMenu > div#serviceMenu2 h3 {background-position: 0 -75px}
+#serviceMenu > div#serviceMenu3 h3 {background-position: 0 -150px}
+#serviceMenu > div#serviceMenu4 h3 {background-position: 0 -225px}
+#main {padding: 15px 0 0 0;overflow: hidden}
+#content {width: 605px;padding: 0 15px 0 15px;float: left;margin: 0 -635px 0 0}
+#content p {text-align: justify;margin: 0 0 18px 0}
+#content h1 {background: url(../img/header.jpg) 0 0 no-repeat;width: 580px;padding: 18px 55px 10px 15px;height: 57px;margin: 0 0 0 -15px;color: #ffffff;font: 21px/20px "Arial Narrow", Arial;font-weight: normal;font-style: italic}
+#content h2 {padding: 0 0 12px 0}
+#sidebar {margin: 0 0 0 650px;position: relative}
+#sidebar h2 {background: url(../img/sidebar.jpg) 0 0 no-repeat;width: 280px;padding: 18px 15px 10px 15px;height: 57px;color: #ffffff;font: 21px/20px "Arial Narrow", Arial;font-weight: normal;font-style: italic}
+#priceList {position: relative;padding: 0 15px 40px 15px}
+#priceList #priceIcon {background: url(../img/pricelist.png) 0 0 no-repeat;position: absolute;top: -40px;left: 160px;width: 104px;height: 86px}
+#news {position: relative;padding: 0 15px 10px 15px}
+#news > div {background: url(../img/dots.gif) 0 100% repeat-x;padding: 0 0 15px 0;font-size: 11px;color: #909c6e}
+#news > div p {padding: 10px 0 10px 0}
+#news > div a {font-size: 12px}
+#news > p {padding: 10px 0 15px 0}
+#news > p a {font-size: 10px;text-transform: uppercase;color: #709e12}
+#articles {padding: 0 15px 0 15px}
+#articles > ul li {background: url(../img/dots.gif) 0 100% repeat-x;padding: 8px 0 8px 0}
+#articles > ul li a {color: #566138}
+#articles > p {padding: 10px 0 15px 0}
+#articles > p a {font-size: 10px;text-transform: uppercase;color: #709e12}
+#clients {background: #d8eab6;position: relative;padding: 20px 0 0 190px;border-top: 1px solid #cbdda5;border-bottom: 1px solid #ebf7c9;height: 89px;margin: 20px 0 0 0;text-align: center;word-spacing: -4px}
+#clients b {background: url(../img/clients.jpg) 0 0 no-repeat;display: block;position: absolute;top: -1px;left: 0;width: 248px;height: 111px}
+#clients i {background: url(../img/clientsCorner.jpg) 0 0 no-repeat;display: block;position: absolute;top: -1px;right: 0;width: 15px;height: 111px}
+#clients img {display: inline-block;zoom: 1;*display: inline;vertical-align: middle;margin: 0 25px 0 25px}
+#footer {padding: 15px 15px 15px 15px;position: relative}
+#footer p {padding: 0 0 5px 0}
+#footer strong {font-size: 14px}
+#footer > div {position: absolute;top: 15px;right: 15px;white-space: nowrap}
+ul#price-list-menu{margin: 12px 0 0 12px; display: none}
+
+#contacts {
+	background: transparent;
+}
+#contacts ul {
+	padding: 0 32px 0 20px;
+}
+#contacts ul li#contactsPhones {
+	padding: 18px 0 10px 0;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: bold;
+}
