@@ -92,17 +92,21 @@
 @media (max-width: 766px) {
     #mainMenu {
         position: static;
-        width: 100%
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px
     }
     #mainMenu ul {
         display: -ms-flexbox;
         display: flex;
-        -ms-flex-direction: column;
-            flex-direction: column;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+        -ms-flex-pack: center;
+            justify-content: center;
         -ms-flex-align: center;
             align-items: center
+    }
+    #mainMenu ul li {
+        margin-left: 10px;
+        margin-right: 10px
     }
     #logo {
         position: static;
@@ -122,12 +126,8 @@
         width: 100%
     }
     #contacts ul {
-        -ms-flex-direction: column;
-            flex-direction: column;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-        -ms-flex-align: center;
-            align-items: center;
+        -ms-flex-pack: center;
+            justify-content: center;
         margin-bottom: 20px
     }
     #sidebar {
@@ -171,5 +171,21 @@
     }
     #clients {
         padding-top: 120px
+    }
+}
+@media (max-width: 480px) {
+    #mainMenu ul {
+        -ms-flex-direction: column;
+            flex-direction: column;
+        -ms-flex-pack: start;
+            justify-content: flex-start
+    }
+    #contacts ul {
+        -ms-flex-direction: column;
+            flex-direction: column;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+        -ms-flex-align: center;
+            align-items: center
     }
 }
