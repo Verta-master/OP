@@ -87,12 +87,18 @@
   #mainMenu {
     position: static;
     width: 100%;
+    height: auto;
+    margin-bottom: 20px;
     
     ul {
       display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
+      justify-content: center;
       align-items: center;
+      
+      li {
+        margin-left: 10px;
+        margin-right: 10px;
+      }
     }
   }
   #logo {
@@ -110,9 +116,7 @@
     width: 100%;
     
     ul {
-      flex-direction: column;
-      justify-content: flex-start;
-      align-items: center;
+      justify-content: center;
       margin-bottom: 20px;
     }
   }
@@ -154,5 +158,17 @@
   }
   #clients {
     padding-top: 120px;
+  }
+}
+
+@media (max-width: 480px) {
+  #mainMenu ul {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  #contacts ul {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
   }
 }
